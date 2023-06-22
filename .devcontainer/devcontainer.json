@@ -8,5 +8,26 @@
       "installMaven": true,
       "installAnt": true
     }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // Java Extension Pack
+        "vscjava.vscode-java-pack",
+        // Miscellaneous Extensions
+        "VisualStudioExptTeam.vscodeintellicode",
+        // Eclipse-styled theme
+        "solrike.eclipse-theme-by-solrike"
+      ],
+      "settings": {
+				"workbench.iconTheme": "eclipse-theme-by-solrike",
+				"editor.bracketPairColorization.enabled": true,
+				"editor.minimap.scale": 2,
+				"editor.indentSize": "tabSize",
+				"editor.tabSize": 4,
+				"editor.renderWhitespace": "all",
+				"files.trimTrailingWhitespace": true
+			}
+    }
   }
 }
