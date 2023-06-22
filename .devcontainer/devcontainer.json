@@ -7,12 +7,13 @@
         "vscjava.vscode-java-pack",
         // Miscellaneous Extensions
         "VisualStudioExptTeam.vscodeintellicode",
-        // Eclipse-styled theme
+        // Eclipse-styled themes
+        "arzg.eclipse",
         "solrike.eclipse-theme-by-solrike"
       ],
       "settings": {
-        "workbench.iconTheme": "eclipse-file-icons-by-solrike",
-        "workbench.colorTheme": "Eclipse Light by Solrike",
+        "workbench.iconTheme": "eclipse-theme-by-solrike",
+        "workbench.colorTheme": "Eclipse Light",
         "editor.bracketPairColorization.enabled": true,
         "editor.experimental.StikyScroll.enabled": true,
         "editor.minimap.scale": 2,
