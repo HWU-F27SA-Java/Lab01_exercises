@@ -1,14 +1,5 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/java:1": {
-      "version": "latest",
-      "jdkDistro": "oracle",
-      "installGradle": true,
-      "installMaven": true,
-      "installAnt": true
-    }
-  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -34,6 +25,15 @@
       "openFiles": [
         "src/HelloWorld.java"
       ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "latest",
+      "jdkDistro": "oracle",
+      "installGradle": true,
+      "installMaven": true,
+      "installAnt": true
     }
   }
 }
