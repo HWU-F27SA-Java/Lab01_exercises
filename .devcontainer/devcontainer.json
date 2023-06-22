@@ -20,15 +20,20 @@
         "solrike.eclipse-theme-by-solrike"
       ],
       "settings": {
-				"workbench.iconTheme": "eclipse-theme-by-solrike",
-				"editor.bracketPairColorization.enabled": true,
+        "workbench.iconTheme": "eclipse-theme-by-solrike",
+        "editor.bracketPairColorization.enabled": true,
         "editor.experimental.StikyScroll.enabled": true,
-				"editor.minimap.scale": 2,
-				"editor.indentSize": "tabSize",
-				"editor.tabSize": 4,
-				"editor.renderWhitespace": "all",
-				"files.trimTrailingWhitespace": true
-			}
+        "editor.minimap.scale": 2,
+        "editor.indentSize": "tabSize",
+        "editor.tabSize": 4,
+        "editor.renderWhitespace": "all",
+        "files.trimTrailingWhitespace": true
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "src/HelloWorld.java"
+      ]
     }
   }
 }
