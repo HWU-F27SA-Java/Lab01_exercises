@@ -11,7 +11,8 @@
         "solrike.eclipse-theme-by-solrike"
       ],
       "settings": {
-        "workbench.iconTheme": "eclipse-theme-by-solrike",
+        "workbench.iconTheme": "eclipse-file-icons-by-solrike",
+        "workbench.colorTheme": "Eclipse Light by Solrike",
         "editor.bracketPairColorization.enabled": true,
         "editor.experimental.StikyScroll.enabled": true,
         "editor.minimap.scale": 2,
