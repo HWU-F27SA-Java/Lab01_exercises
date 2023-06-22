@@ -22,6 +22,7 @@
       "settings": {
 				"workbench.iconTheme": "eclipse-theme-by-solrike",
 				"editor.bracketPairColorization.enabled": true,
+        "editor.experimental.StikyScroll.enabled": true,
 				"editor.minimap.scale": 2,
 				"editor.indentSize": "tabSize",
 				"editor.tabSize": 4,
