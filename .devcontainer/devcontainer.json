@@ -1,7 +1,8 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/universal:2", // Default Image
   "customizations": {
     "vscode": {
+      // VS Code Extensions to be installed while the machine is being setup
       "extensions": [
         // Java Extension Pack
         "vscjava.vscode-java-pack",
@@ -11,31 +12,34 @@
         "arzg.eclipse",
         "solrike.eclipse-theme-by-solrike"
       ],
+      // Workspace settings (can be customised by the user afterwards too)
       "settings": {
-        "workbench.iconTheme": "eclipse-theme-by-solrike",
-        "workbench.colorTheme": "Eclipse Light",
-        "editor.bracketPairColorization.enabled": true,
-        "editor.experimental.StikyScroll.enabled": true,
-        "editor.minimap.scale": 2,
-        "editor.indentSize": "tabSize",
-        "editor.tabSize": 4,
-        "editor.renderWhitespace": "all",
-        "files.trimTrailingWhitespace": true
+        "workbench.iconTheme": "eclipse-theme-by-solrike", // Eclipse Icon style
+        "workbench.colorTheme": "Eclipse Light",           // Eclipse-styled app
+        "editor.bracketPairColorization.enabled": true,    // Colors each bracket pair
+        "editor.experimental.StikyScroll.enabled": true,   // To stick all the functions, classes at the top
+        "editor.minimap.scale": 2,                         // Mini Map
+        "editor.indentSize": "tabSize",                    // Tab Indent
+        "editor.tabSize": 4,                               // Tab Size of 4
+        "editor.renderWhitespace": "all",                  // Shows the whitespaces
+        "files.trimTrailingWhitespace": true               // Removes any trailing whitespaces at the end
       }
     },
     "codespaces": {
+      // Opens the Java file after the Codespace is built
       "openFiles": [
-        "src/HelloWorld.java"
+        "src/HelloWorld.java" // Opens up the Java file
       ]
     }
   },
+  // Features for installing the Java Environment
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "latest",
-      "jdkDistro": "oracle",
-      "installGradle": true,
-      "installMaven": true,
-      "installAnt": true
+      "version": "latest",   // Latest version of Java
+      "jdkDistro": "oracle", // Installs the Oracle Distribution of Java Development Kit (JDK)
+      "installGradle": true, // Installs Gradle
+      "installMaven": true,  // Installs Maven
+      "installAnt": true     // Installs Ant
     }
   }
 }
