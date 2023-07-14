@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2", // Default Image
+  "name": "F27SA Codespace",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -14,20 +14,18 @@
       ]
     },
     "codespaces": {
-      // Opens the Java file after the Codespace is built
       "openFiles": [
-        "src/HelloWorld.java" // Opens up the Java file
+        "src/HelloWorld.java"
       ]
     }
   },
-  // Features for installing the Java Environment
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "latest",   // Latest version of Java
-      "jdkDistro": "oracle", // Installs the Oracle Distribution of Java Development Kit (JDK)
-      "installGradle": true, // Installs Gradle
-      "installMaven": true,  // Installs Maven
-      "installAnt": true     // Installs Ant
+      "version": "latest",
+      "jdkDistro": "oracle",
+      "installGradle": true,
+      "installMaven": true,
+      "installAnt": true
     }
   },
   "postCreateCommand": "sudo cp .devcontainer/welcome.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt"
