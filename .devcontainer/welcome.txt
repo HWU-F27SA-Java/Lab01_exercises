@@ -1,0 +1,8 @@
+Welcome to F27SA Lab 1! 💻
+
+Here you will run your first exercise, printing "Hello World!"
+
+To get started, head over to the src folder, click on HelloWorld.java
+and run the program!
+
+Happy Coding :)
