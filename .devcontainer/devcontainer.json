@@ -2,7 +2,6 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2", // Default Image
   "customizations": {
     "vscode": {
-      // VS Code Extensions to be installed while the machine is being setup
       "extensions": [
         // Java Extension Pack
         "vscjava.vscode-java-pack",
@@ -10,6 +9,8 @@
         "VisualStudioExptTeam.vscodeintellicode",
         // Eclipse-styled themes
         "arzg.eclipse",
+        "solrike.eclipse-theme-by-solrike",
+        "eamodio.gitlens"
       ]
     },
     "codespaces": {
