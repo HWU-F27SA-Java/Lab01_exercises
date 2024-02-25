@@ -1,6 +1,6 @@
 {
 	"name": "F27SA Codespace",
-	"image": "mcr.microsoft.com/devcontainers/java",
+	"image": "ghcr.io/hwu-f27sa-java/lab01_exercises:latest",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -18,15 +18,6 @@
 			"openFiles": [
 				"src/HelloWorld.java"
 			]
-		}
-	},
-	"features": {
-		"ghcr.io/devcontainers/features/java:1": {
-			"version": "latest",
-			"jdkDistro": "oracle",
-			"installGradle": true,
-			"installMaven": true,
-			"installAnt": true
 		}
 	},
 	"postCreateCommand": "sudo cp .devcontainer/welcome.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt"
